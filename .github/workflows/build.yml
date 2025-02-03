@@ -87,7 +87,6 @@ runs:
         ${{ inputs.buildozer-cmd }}
       shell: bash
 
-
     - name: Build with Buildozer
       run: |
         ${{ inputs.buildozer-cmd }}
